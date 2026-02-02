@@ -5,6 +5,7 @@ A role-based platform for managing academics, attendance, internal marks, and fi
 ## Current Setup
 - **Backend**: Express API skeleton with role-specific routes.
 - **Database**: Baseline SQL schema for users, academics, attendance, and finance.
+- **Frontend**: Static landing page scaffold in `frontend/`.
 - **Documentation**: Architecture notes to guide implementation.
 
 ## Getting Started (Backend)
@@ -13,6 +14,9 @@ cd backend
 npm install
 npm run dev
 ```
+
+## Getting Started (Frontend)
+Open `frontend/index.html` in a browser to view the landing page.
 
 Environment variables can be configured via `backend/.env.example`.
 
